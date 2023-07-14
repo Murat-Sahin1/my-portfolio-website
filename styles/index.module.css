@@ -1,0 +1,27 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EAE0DA;
+    
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Create 12 equal-width columns */
+    gap: 20px; /* Add 20 pixels of spacing between columns */
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    z-index: -1;
+  }
+  
+  .column {
+    background-color: rgba(207, 26, 26, 0.075); /* Set the opacity of the columns */
+  }
+
+  .content {
+    position: relative;
+  }
