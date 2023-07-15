@@ -36,7 +36,7 @@ export default function Navbar() {
         </div>
         <div className={`${styles.hiddenComponent} ${styles.box}`}></div>
         <div
-          className={`${styles.slideScreenButtonBox} ${styles.appearSlideButton} ${styles.appearSlideButton}`}
+          className={`${styles.slideScreenButtonBox} ${styles.appearSlideButton}`}
         >
           <div className={`${styles.menuIconWrapper}`}>
             <AiOutlineMenu

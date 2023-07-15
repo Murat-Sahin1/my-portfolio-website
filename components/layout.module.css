@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Apple2Pro';
+  src: url('../public/fonts/Apple-II-Pro.otf') format('opentype');
+}
+
 .fullContainer {
   font-family: 'Space Grotesk';
   

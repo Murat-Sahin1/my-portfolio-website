@@ -1,0 +1,126 @@
+.mainFrameContainer {
+    display: flex;
+    height: calc(100% - 64px);
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #F7F5EB;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainFrameTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 520px;
+    align-items: flex-start;
+}
+
+.welcomeContainer {
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.welcomeText {
+    font-family: 'Apple2Pro';
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #8e7fe3ef;
+    
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 2s steps(44) 0.5s 1 normal both,
+        blinkTextCursor 700ms steps(44) infinite normal;
+}
+
+.line1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    border-right: 1px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #8e7fe3ef;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.nameContainer {
+    display: inline-block;
+    height: 235px;
+    width: 541px;
+}
+
+.nameText {
+    font-family: 'Space Grotesk';
+    font-size: 73px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: -10;
+    padding: 0;
+    line-height: 1;
+}
+
+.surNameText {
+    display: inline-block;
+    font-family: 'Space Grotesk';
+    font-size: 191px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 0.52;
+}
+
+.jobTitleContainer {
+    width: 538px;
+    height: 75px;
+}
+
+.jobTitleText {
+    font-family: 'Space Grotesk';
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.66);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.295);
+    line-height: 1.3;
+}
+
+.descriptionContainer {}
+
+.descriptionText {
+    margin: 0;
+    padding: 0;
+    font-size: 20;
+
+}
+
+.mainFrameButtonsContainer {
+    width: 450px;
+    height: 450px;
+}

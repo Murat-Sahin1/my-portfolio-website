@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Navbar from "../components/mainPage/navbar";
 import indexStyles from "../styles/index.module.css";
+import MainFrameContainer from "@/components/mainPage/mainFrame/mainFrameContainer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
 
       <div class={indexStyles.content}>
         <Navbar />
+        <MainFrameContainer />
       </div>
     </Layout>
   );
