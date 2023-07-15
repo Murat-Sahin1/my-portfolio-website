@@ -4,7 +4,7 @@ import Head from "next/head";
 export default function MainFrameContainer() {
   return (
     <>
-      <div className={styles.mainFrameContainer}>
+      <div className={`${styles.midMainFrameContainer} ${styles.mainFrameContainer}`}>
         <div className={styles.mainFrameTextContainer}>
           <div className={styles.welcomeContainer}>
             <p
