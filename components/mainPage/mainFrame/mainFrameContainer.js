@@ -7,7 +7,11 @@ export default function MainFrameContainer() {
       <div className={styles.mainFrameContainer}>
         <div className={styles.mainFrameTextContainer}>
           <div className={styles.welcomeContainer}>
-            <p className={`${styles.welcomeText} ${styles.line1} ${styles.typewriter}`}>Welcome...</p>
+            <p
+              className={`${styles.welcomeText} ${styles.line1} ${styles.typewriter}`}
+            >
+              Welcome...
+            </p>
           </div>
           <div className={styles.nameContainer}>
             <p className={styles.nameText}>murat</p>
@@ -25,7 +29,20 @@ export default function MainFrameContainer() {
             </p>
           </div>
         </div>
-        <div className={styles.mainFrameButtonsContainer}>mainFrame</div>
+        <div className={styles.mainFrameButtonsContainer}>
+          <div className={`${styles.mainFrameButton} ${styles.topLeft}`}>
+            <p className={`${styles.buttonText}`}>Stack</p>
+          </div>
+          <div className={`${styles.mainFrameButton} ${styles.topRight}`}>
+          <p className={`${styles.buttonText}`}>LinkedIn</p>
+          </div>
+          <div className={`${styles.mainFrameButton} ${styles.bottomLeft}`}>
+          <p className={`${styles.buttonText}`}>GitHub</p>
+          </div>
+          <div className={`${styles.mainFrameButton} ${styles.bottomRight}`}>
+          <p className={`${styles.buttonText}`}>Blog</p>
+          </div>
+        </div>
       </div>
     </>
   );
