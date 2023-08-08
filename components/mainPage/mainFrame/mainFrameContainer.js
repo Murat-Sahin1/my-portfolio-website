@@ -4,7 +4,9 @@ import Head from "next/head";
 export default function MainFrameContainer() {
   return (
     <>
-      <div className={`${styles.midMainFrameContainer} ${styles.mainFrameContainer}`}>
+      <div
+        className={`${styles.midMainFrameContainer} ${styles.mainFrameContainer}`}
+      >
         <div className={styles.mainFrameTextContainer}>
           <div className={styles.welcomeContainer}>
             <p
@@ -30,17 +32,48 @@ export default function MainFrameContainer() {
           </div>
         </div>
         <div className={styles.mainFrameButtonsContainer}>
-          <div className={`${styles.mainFrameButton} ${styles.topLeft}`}>
-            <p className={`${styles.buttonText}`}>Stack</p>
+          <div className={styles.cardContainer}>
+            <div className={`${styles.mainFrameButton} ${styles.topLeft}`}>
+              <div className={`${styles.frontCard}`}>
+                <p className={`${styles.buttonText}`}>Stack</p>
+              </div>
+              <div className={`${styles.backCard}`}>
+                <p>testttt</p>
+              </div>
+            </div>
           </div>
-          <div className={`${styles.mainFrameButton} ${styles.topRight}`}>
-          <p className={`${styles.buttonText}`}>LinkedIn</p>
+
+          <div className={styles.cardContainer}>
+            <div className={`${styles.mainFrameButton} ${styles.topRight}`}>
+              <div className={`${styles.frontCard}`}>
+                <p className={`${styles.buttonText}`}>Linkedin</p>
+              </div>
+              <div className={`${styles.backCard}`}>
+                <p>testttt</p>
+              </div>
+            </div>
           </div>
-          <div className={`${styles.mainFrameButton} ${styles.bottomLeft}`}>
-          <p className={`${styles.buttonText}`}>GitHub</p>
+
+          <div className={styles.cardContainer}>
+            <div className={`${styles.mainFrameButton} ${styles.bottomLeft}`}>
+              <div className={`${styles.frontCard}`}>
+                <p className={`${styles.buttonText}`}>GitHub</p>
+              </div>
+              <div className={`${styles.backCard}`}>
+                <p>testttt</p>
+              </div>
+            </div>
           </div>
-          <div className={`${styles.mainFrameButton} ${styles.bottomRight}`}>
-          <p className={`${styles.buttonText}`}>Blog</p>
+
+          <div className={styles.cardContainer}>
+            <div className={`${styles.mainFrameButton} ${styles.bottomRight}`}>
+              <div className={`${styles.frontCard}`}>
+                <p className={`${styles.buttonText}`}>Blog</p>
+              </div>
+              <div className={`${styles.backCard}`}>
+                <p>testttt</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
