@@ -62,6 +62,16 @@ export default function Navbar() {
     setCurrentBrowser(whichBrowser());
     console.log(currentBrowser);
   }, []);
+
+  const scrollToPortfolioViewport = () => {
+    const portfolioViewport = document.getElementById('portfolioFrame');
+    if(portfolioViewport){
+      window.scrollTo({
+        top: portfolioViewport.offsetTop,
+        behavior: 'smooth',
+      })
+    }
+  }
   
   return (
     <>
@@ -88,7 +98,7 @@ export default function Navbar() {
             className={`${styles.hiddenMiddleComponent} ${styles.middleBox}`}
           >
             <div className={styles.middleTextWrapper}>
-              <p className={styles.middleTextButton}>portfolio</p>
+              <p className={styles.middleTextButton} onClick={scrollToPortfolioViewport}>portfolio</p>
             </div>
             <div className={styles.middleTextWrapper}>
               <p className={styles.middleTextButton}>about</p>

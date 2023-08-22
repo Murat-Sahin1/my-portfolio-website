@@ -1,0 +1,16 @@
+.portfolioFrameContainer{
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F7F5EB;
+}
+
+.testingg{
+    
+}
