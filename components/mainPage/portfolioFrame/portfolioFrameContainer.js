@@ -78,16 +78,16 @@ export default function PortfolioFrameContainer() {
             style={{ transform: `translateX(${precentage}%)` }}
           >
             <div class={styles.project}>
-              <ProjectCard precentage={precentage}/>
+              <ProjectCard precentage={precentage} imgpath={"/images/desert.jpg"}/>
             </div>
             <div class={styles.project}>
-              <ProjectCard precentage={precentage}/>
+              <ProjectCard precentage={precentage} imgpath={"/images/desert.jpg"}/>
             </div>
             <div class={styles.project}>
-              <ProjectCard precentage={precentage}/>
+              <ProjectCard precentage={precentage} imgpath={"/images/desert.jpg"}/>
             </div>
             <div class={styles.project}>
-              <ProjectCard precentage={precentage}/>
+              <ProjectCard precentage={precentage} imgpath={"/images/desert.jpg"}/>
             </div>
           </div>
         </div>

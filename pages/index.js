@@ -5,6 +5,8 @@ import Navbar from "../components/mainPage/navbar";
 import indexStyles from "../styles/index.module.css";
 import MainFrameContainer from "@/components/mainPage/mainFrame/mainFrameContainer";
 import PortfolioFrameContainer from "@/components/mainPage/portfolioFrame/portfolioFrameContainer";
+import AboutFrameContainer from "@/components/mainPage/aboutFrame/aboutFrameContainer";
+
 
 export default function Home() {
   return (
@@ -33,6 +35,14 @@ export default function Home() {
 
       <div class={indexStyles.secondaryFrameContent}>
         <PortfolioFrameContainer />
+      </div>
+
+      <div class={indexStyles.thirdFrameContent}>
+        <AboutFrameContainer />
+      </div>
+
+      <div class={indexStyles.fourthFrameContent}>
+        
       </div>
 
     </Layout>

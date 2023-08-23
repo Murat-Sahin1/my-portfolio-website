@@ -8,12 +8,11 @@ export default function ProjectCard(props) {
         <div class={styles.imageContainer}>
           <img
             class={styles.image}
-            src="/images/desert.jpg"
+            src={props.imgpath}
             height={600}
             width={600}
             draggable={false}
             style={{ objectPosition: `${((props.precentage-(-126)) / (0-(-126))) * 100}% 100%` }}
-            
           />
         </div>
         <div class={styles.textContainer}>

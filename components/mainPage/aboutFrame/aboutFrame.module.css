@@ -1,0 +1,9 @@
+.aboutFrameContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right:60px;
+    
+    background-color: #F7F5EB;
+}
