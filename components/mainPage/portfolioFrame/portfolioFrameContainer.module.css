@@ -1,4 +1,4 @@
-.portfolioFrameContainer{
+.portfolioFrameContainer {
     position: relative;
     height: 100vh;
     overflow: hidden;
@@ -10,7 +10,7 @@
     background-color: #F7F5EB;
 }
 
-.headerContainer{
+.headerContainer {
     display: flex;
     justify-content: space-between;
     height: 170px;
@@ -25,8 +25,8 @@
 }
 
 .portfolioText {
-    font-size: 120px;
-    letter-spacing: 20px;
+    font-size: 130px;
+    letter-spacing: 30px;
     font-weight: 300;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -54,12 +54,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom:15px
+    padding-bottom: 15px
 }
 
 .projectStripe {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
     height: 620px;
     width: 100%;
-    background-color: black;
+    
+}
 
+.project {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+@keyframes shiftToLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }

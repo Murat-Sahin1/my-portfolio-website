@@ -1,0 +1,84 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 935px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 1px  rgba(0, 0, 0, 0.3);;
+    user-select: none;
+}
+
+.imageContainer {
+    height: 100%;
+    width: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.image {
+    object-fit: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid black;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 335px;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 25px;
+    
+}
+
+.projectTagContainer {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    height: 26px;
+}
+
+.projectTagText {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #8e7fe3ef;
+}
+
+.projectHeaderContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.projectHeaderText{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.projectDescContainer {
+
+}
+
+.projectDescription {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 149.5%;
+}
+
+.dateContainer{
+    padding-top: 20px;
+}
+
+.dateText {
+    font-size: 20px;
+    line-height: 62.5%;
+    color: #6D6A6A;
+}
