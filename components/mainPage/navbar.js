@@ -72,6 +72,16 @@ export default function Navbar() {
       })
     }
   }
+
+  const scrollToAboutViewport = () => {
+    const aboutViewport = document.getElementById('aboutFrame');
+    if(aboutViewport){
+      window.scrollTo({
+        top: aboutViewport.offsetTop,
+        behavior: 'smooth',
+      })
+    }
+  }
   
   return (
     <>
@@ -101,7 +111,7 @@ export default function Navbar() {
               <p className={styles.middleTextButton} onClick={scrollToPortfolioViewport}>portfolio</p>
             </div>
             <div className={styles.middleTextWrapper}>
-              <p className={styles.middleTextButton}>about</p>
+              <p className={styles.middleTextButton} onClick={scrollToAboutViewport}>about</p>
             </div>
             <div className={styles.middleTextWrapper}>
               <p className={styles.middleTextButton}>contact</p>
