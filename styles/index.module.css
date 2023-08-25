@@ -18,7 +18,7 @@
   }
   
   .column {
-    background-color: rgba(207, 26, 26, 0.075); /* Set the opacity of the columns */
+    background-color: #F7F5EB; /* rgba(207, 26, 26, 0.075); */ /* Set the opacity of the columns */
   }
 
   .content {
@@ -40,4 +40,5 @@
 
   .fourthFrameContent {
     background-color: #F7F5EB;
+    
   }

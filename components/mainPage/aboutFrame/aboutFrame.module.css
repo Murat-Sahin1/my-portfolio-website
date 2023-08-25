@@ -5,7 +5,6 @@
     height: 100vh;
     overflow: hidden;
 
-    
     background-color: #F7F5EB;
 }
 
@@ -16,7 +15,7 @@
     height: 100%;
     width: 50%;
     border-top: 2px solid black;
-
+    border-bottom: 2px solid black;
 }
 
 .briefContainer{
@@ -27,6 +26,7 @@
     width: 50%;
     border-left: 2px solid black;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
     background-color: #EAE0DA;
 }
 
@@ -149,3 +149,4 @@
     line-height: 122%;
     color: rgba(0, 0, 0, 0.87)
 }
+

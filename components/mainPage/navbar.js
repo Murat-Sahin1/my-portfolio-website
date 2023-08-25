@@ -82,6 +82,16 @@ export default function Navbar() {
       })
     }
   }
+
+  const scrollToContactViewport = () => {
+    const contactViewport = document.getElementById('contactFrame');
+    if(contactViewport){
+      window.scrollTo({
+        top: contactViewport.offsetTop,
+        behavior: 'smooth',
+      })
+    }
+  }
   
   return (
     <>
@@ -114,7 +124,7 @@ export default function Navbar() {
               <p className={styles.middleTextButton} onClick={scrollToAboutViewport}>about</p>
             </div>
             <div className={styles.middleTextWrapper}>
-              <p className={styles.middleTextButton}>contact</p>
+              <p className={styles.middleTextButton} onClick={scrollToContactViewport}>contact</p>
             </div>
           </div>
           <div className={`${styles.hiddenComponent} ${styles.box}`}></div>
