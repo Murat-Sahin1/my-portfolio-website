@@ -21,7 +21,7 @@ export default function ContactFrameContainer() {
                   <Image src="/images/mail-icon.png" width={40} height={40} />
                 </div>
                 <div class={styles.contactLineWrapper}>
-                  <p class={styles.socialText}>murat.sahin.dev@gmail.com</p>
+                  <a href="mailto:murat.sahin.dev@gmail.com" class={styles.socialText}>murat.sahin.dev@gmail.com</a>
                 </div>
               </div>
               <div class={styles.rowEntry}>
@@ -47,9 +47,9 @@ export default function ContactFrameContainer() {
                   />
                 </div>
                 <div class={styles.contactLineWrapper}>
-                  <p class={styles.socialText}>
+                  <a href="https://www.linkedin.com/in/murat-sahin442" class={styles.socialText}>
                     linkedin.com/in/murat-sahin442
-                  </p>
+                  </a>
                 </div>
               </div>
               <div class={styles.rowEntry}>
@@ -60,7 +60,7 @@ export default function ContactFrameContainer() {
                   <Image src="/images/github-icon.png" width={40} height={40} />
                 </div>
                 <div class={styles.contactLineWrapper}>
-                  <p class={styles.socialText}>github.com/Murat-Sahin1</p>
+                  <a href="https://www.github.com/Murat-Sahin1" class={styles.socialText}>github.com/Murat-Sahin1</a>
                 </div>
               </div>
               <div class={styles.rowEntry}>
@@ -71,7 +71,7 @@ export default function ContactFrameContainer() {
                   <Image src="/images/medium-icon.png" width={40} height={40} />
                 </div>
                 <div class={styles.contactLineWrapper}>
-                  <p class={styles.socialText}>medium.com/@murat.sahin.dev</p>
+                  <a href="https://www.medium.com/@murat.sahin.dev" class={styles.socialText}>medium.com/@murat.sahin.dev</a>
                 </div>
               </div>
             </div>
