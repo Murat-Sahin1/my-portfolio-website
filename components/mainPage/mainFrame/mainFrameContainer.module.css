@@ -181,7 +181,8 @@
 }
 
 .backCard {
-    background: #ab9df5;
+    background: #B2A4FF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.302);
     transform: rotateY(180deg);
 }
 
@@ -192,6 +193,17 @@
     align-items: center;
     gap: 20px;
 }
+
+.backCardStackContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    grid-template-rows: repeat(9, 40px); /* 6 rows */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    gap: 25px;
+}
+
 
 .backCardImage {
     transition: fill 0.3s ease, transform 0.3s ease;
@@ -207,32 +219,18 @@
     outline: none;
     color: black;
     background-color: #9C8AFF;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 7px 0  rgba(0, 0, 0, 0.5);
 }
 
 .visitButton:hover {background-color: #8573eb}
 
 .visitButton:active {
     background-color: #8573eb;
-    box-shadow: 0 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.8);
     transform: translateY(4px);
   }
-
-/* 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-*/
 
 .backCardImage:hover {
     fill: #000000ec;

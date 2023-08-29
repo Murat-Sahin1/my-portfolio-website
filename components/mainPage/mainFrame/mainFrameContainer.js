@@ -46,7 +46,89 @@ export default function MainFrameContainer() {
                 <p className={`${styles.buttonText}`}>Stack</p>
               </div>
               <div className={`${styles.backCard}`}>
-                <p>testttt</p>
+                <div class={styles.backCardStackContainer}>
+                <Image
+                    className={styles.backCardImage}
+                    src={"/images/dotnet.png"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/react-icon.svg"}
+                    width={50}
+                    height={50}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -57,7 +139,24 @@ export default function MainFrameContainer() {
                 <p className={`${styles.buttonText}`}>Linkedin</p>
               </div>
               <div className={`${styles.backCard}`}>
-                <p>testttt</p>
+                <div class={styles.backCardImageContainer}>
+                  <Image
+                    className={styles.backCardImage}
+                    src={"/images/linkedin-black-icon.svg"}
+                    width={80}
+                    height={80}
+                    draggable = {false}
+                    style={{borderRadius: 15}}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/murat-sahin442/"
+                    className={styles.visitButton}
+                  >
+                    Visit
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -71,13 +170,19 @@ export default function MainFrameContainer() {
                 <div class={styles.backCardImageContainer}>
                   <Image
                     className={styles.backCardImage}
-                    src={hovered ? "/images/github-mark-white.svg" : "/images/github.png"}
+                    src={"/images/github.png"}
                     width={80}
                     height={80}
+                    draggable = {false}
                     onMouseEnter={toggleHover}
                     onMouseLeave={toggleHover}
                   />
-                  <button className={styles.visitButton}>Visit</button>
+                  <a
+                    href="https://github.com/Murat-Sahin1"
+                    className={styles.visitButton}
+                  >
+                    Visit
+                  </a>
                 </div>
               </div>
             </div>
@@ -89,7 +194,18 @@ export default function MainFrameContainer() {
                 <p className={`${styles.buttonText}`}>Blog</p>
               </div>
               <div className={`${styles.backCard}`}>
-                <p style={{fontFamily:'Space Grotesk'}}>testttt</p>
+              <div class={styles.backCardImageContainer}>
+                  <Image
+                    className={styles.backCardImage}
+                    src="/images/medium-icon.svg"
+                    width={80}
+                    height={80}
+                    draggable = {false}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <a href='https://medium.com/@murat.sahin.dev' className={styles.visitButton}>Visit</a>
+                </div>
               </div>
             </div>
           </div>
