@@ -135,7 +135,7 @@
 }
 
 .mainFrameButtonsContainer {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: -90px;
@@ -149,7 +149,7 @@
     perspective: 800px;
 }
 
-.cardContainer:hover > .mainFrameButton {
+.cardContainer:hover>.mainFrameButton {
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -172,7 +172,7 @@
     height: 250px;
     border-radius: 22px;
     position: absolute;
-    box-shadow: 4px 4px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 1px 2px rgba(0, 0, 0, 0.302);
     backface-visibility: hidden;
 }
 
@@ -181,32 +181,87 @@
 }
 
 .backCard {
-    background: yellow;
+    background: #ab9df5;
     transform: rotateY(180deg);
 }
+
+.backCardImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.backCardImage {
+    transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.visitButton {
+    display: inline-block;
+    padding: 8px 22px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #9C8AFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.visitButton:hover {background-color: #8573eb}
+
+.visitButton:active {
+    background-color: #8573eb;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.8);
+    transform: translateY(4px);
+  }
+
+/* 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+*/
+
+.backCardImage:hover {
+    fill: #000000ec;
+    transform: scale(1.1);
+}
+
 
 .topLeft {
     top: 0;
     left: 0;
-    
+
 }
 
 .topRight {
     top: 0;
     right: 0;
-    
+
 }
 
 .bottomLeft {
     bottom: 0;
     left: 0;
-    
+
 }
 
 .bottomRight {
     bottom: 0;
     right: 0;
-    
+
 }
 
 .buttonText {

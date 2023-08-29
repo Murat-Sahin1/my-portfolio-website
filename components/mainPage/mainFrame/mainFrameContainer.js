@@ -1,7 +1,15 @@
 import styles from "./mainFrameContainer.module.css";
 import Head from "next/head";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function MainFrameContainer() {
+  const [hovered, setHovered] = useState(false);
+
+  const toggleHover = () => {
+    setHovered(!hovered);
+  };
+
   return (
     <>
       <div
@@ -60,7 +68,17 @@ export default function MainFrameContainer() {
                 <p className={`${styles.buttonText}`}>GitHub</p>
               </div>
               <div className={`${styles.backCard}`}>
-                <p>testttt</p>
+                <div class={styles.backCardImageContainer}>
+                  <Image
+                    className={styles.backCardImage}
+                    src={hovered ? "/images/github-mark-white.svg" : "/images/github.png"}
+                    width={80}
+                    height={80}
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                  />
+                  <button className={styles.visitButton}>Visit</button>
+                </div>
               </div>
             </div>
           </div>
@@ -71,7 +89,7 @@ export default function MainFrameContainer() {
                 <p className={`${styles.buttonText}`}>Blog</p>
               </div>
               <div className={`${styles.backCard}`}>
-                <p>testttt</p>
+                <p style={{fontFamily:'Space Grotesk'}}>testttt</p>
               </div>
             </div>
           </div>
