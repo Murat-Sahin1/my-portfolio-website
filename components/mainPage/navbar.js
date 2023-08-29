@@ -78,7 +78,7 @@ export default function Navbar() {
     if(aboutViewport){
       window.scrollTo({
         top: aboutViewport.offsetTop,
-        behavior: 'smooth',
+        behavior: 'instant',
       })
     }
   }
@@ -86,9 +86,11 @@ export default function Navbar() {
   const scrollToContactViewport = () => {
     const contactViewport = document.getElementById('contactFrame');
     if(contactViewport){
+      const vhOffset = 52; // Adjust this value to the number of vh units you want to jump
+      const targetScrollPosition = contactViewport.offsetTop + vhOffset * window.innerHeight;
       window.scrollTo({
-        top: contactViewport.offsetTop,
-        behavior: 'smooth',
+        top: targetScrollPosition,
+        behavior: "instant"
       })
     }
   }

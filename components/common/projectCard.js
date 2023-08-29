@@ -7,32 +7,29 @@ export default function ProjectCard(props) {
       <div class={styles.cardContainer}>
         <div class={styles.imageContainer}>
           <img
+            id="scrolling-image"
             class={styles.image}
             src={props.imgpath}
             height={600}
             width={600}
             draggable={false}
-            style={{ objectPosition: `${((props.precentage-(-126)) / (0-(-126))) * 100}% 100%` }}
+            style={{ objectPosition: `${((props.precentage))}% 100%` }}
           />
         </div>
         <div class={styles.textContainer}>
           <div class={styles.projectTagContainer}>
-            <p class={styles.projectTagText}>WEBSITE</p>
+            <p class={styles.projectTagText}>{props.type}</p>
           </div>
           <div class={styles.projectHeaderContainer}>
-            <p class={styles.projectHeaderText}>Off-Tone</p>
+            <p class={styles.projectHeaderText}>{props.name}</p>
           </div>
           <div class={styles.projectDescContainer}>
             <p class={styles.projectDescription}>
-              Through art management and webdesign principles I help my clients
-              around the world grow their business. Through art management and
-              webdesign principles I help my clients around the world grow their
-              business. Through art management and webdesign principles I help
-              my clients around the world grow their business.{" "}
+              {props.descriptionText}
             </p>
           </div>
           <div class={styles.dateContainer}>
-            <p class={styles.dateText}>13th Dec, 2016 </p>
+            <p class={styles.dateText}>{props.date}</p>
           </div>
         </div>
       </div>
