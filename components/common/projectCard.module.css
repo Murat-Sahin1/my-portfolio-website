@@ -26,6 +26,7 @@
 
 .textContainer {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 10px;
     width: 335px;
@@ -33,7 +34,13 @@
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     padding: 25px;
-    
+}
+
+.bottomTextPartContainer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 .projectTagContainer {
@@ -71,6 +78,29 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 149.5%;
+}
+
+.seeProjectButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 37px;
+    width: 196px;
+    background-color: #A395F0;
+    border-radius: 13px;
+}
+
+.seeProjectButtonContainer:hover {
+    background-color: #776db1;
+    cursor: pointer;
+}
+
+.seeProjectButton {
+    letter-spacing: 2px;
+    line-height: 160%;
+    font-weight: 500;
+    color: #F7F5EB;
 }
 
 .dateContainer{

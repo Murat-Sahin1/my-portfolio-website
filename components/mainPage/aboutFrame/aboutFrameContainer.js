@@ -19,12 +19,10 @@ export default function AboutFrameContainer() {
               </div>
               <div class={styles.descriptionContainer}>
                 <p class={styles.descriptionText}>
-                  Through art management and webdesign principles I help my
-                  clients around the world grow their business. Through art
-                  management and webdesign principles I help my clients around
-                  the world grow their business. Through art management and
-                  webdesign principles I help my clients around the world grow
-                  their business.{" "}
+                I have specialized in making web apps using .Net and Next.js frameworks, 
+                I also do web design and regularly program new projects. Those include Machine
+                Learning models, games, mobile apps, etc. I would love to work and contribute 
+                to a software team that develops web apps.{" "}
                 </p>
               </div>
             </div>
@@ -52,8 +50,7 @@ export default function AboutFrameContainer() {
                   <p>─</p>
                 </div>
                 <p class={styles.lineText}>
-                  Through art management and webdesign principles I help my
-                  clients.
+                  Creates web apps, using .Net and other technologies.
                 </p>
               </div>
               <div class={styles.lineContainer}>
@@ -61,7 +58,7 @@ export default function AboutFrameContainer() {
                   <p>─</p>
                 </div>
                 <p class={styles.lineText}>
-                  Through art management and webdesign principles I help my.
+                  Does webdesign for his projects and customers.
                 </p>
               </div>
               <div class={styles.lineContainer}>
@@ -69,7 +66,7 @@ export default function AboutFrameContainer() {
                   <p>─</p>
                 </div>
                 <p class={styles.lineText}>
-                  Through art management and web.
+                  Trains specialized machine learning models from time to time.
                 </p>
               </div>
             </div>

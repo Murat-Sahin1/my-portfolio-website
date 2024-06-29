@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
             height={600}
             width={600}
             draggable={false}
-            style={{ objectPosition: `${((props.precentage))}% 100%` }}
+            style={{ objectPosition: `${((props.precentage - 6))}% 0%` }}
           />
         </div>
         <div class={styles.textContainer}>
@@ -28,11 +28,21 @@ export default function ProjectCard(props) {
               {props.descriptionText}
             </p>
           </div>
-          <div class={styles.dateContainer}>
-            <p class={styles.dateText}>{props.date}</p>
+          <div class={styles.bottomTextPartContainer}>
+            <a href={props.link} class={styles.seeProjectButtonContainer}>
+            <div >
+            <p class={styles.seeProjectButton}>See Project</p>
+            </div>
+            </a>
           </div>
+          
         </div>
       </div>
     </>
   );
 }
+          /*
+          <div class={styles.dateContainer}>
+            <p class={styles.dateText}>{props.date}</p>
+          </div>
+          */

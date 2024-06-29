@@ -32,10 +32,8 @@ export default function MainFrameContainer() {
           </div>
           <div className={styles.descriptionContainer}>
             <p className={styles.descriptionText}>
-              Fourth-grade Computer Engineering student with experience in
-              creating full-stack web applications with .Net, C#, and React &
-              Angular; Looking for a junior web developer or trainee position
-              where I could learn from my environment and contribute to it.
+            A recent software engineering graduate with experience in developing full-stack web applications using .NET, C#, and React. 
+            I am seeking a backend developer position where I can both contribute to and grow within a dynamic team environment. 
             </p>
           </div>
         </div>
@@ -67,7 +65,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/charpp.png"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -76,7 +74,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/dockerr.png"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -85,7 +83,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/kubernetes.svg"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -94,7 +92,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/next-js.svg"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -103,7 +101,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/rabbitmq.png"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -112,7 +110,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/redis.png"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -121,7 +119,7 @@ export default function MainFrameContainer() {
                   />
                   <Image
                     className={styles.backCardImage}
-                    src={"/images/react-icon.svg"}
+                    src={"/images/postgre.png"}
                     width={50}
                     height={50}
                     draggable = {false}
@@ -140,6 +138,7 @@ export default function MainFrameContainer() {
               </div>
               <div className={`${styles.backCard}`}>
                 <div class={styles.backCardImageContainer}>
+                <a href="https://www.linkedin.com/in/murat-sahin442/">
                   <Image
                     className={styles.backCardImage}
                     src={"/images/linkedin-black-icon.svg"}
@@ -150,6 +149,7 @@ export default function MainFrameContainer() {
                     onMouseEnter={toggleHover}
                     onMouseLeave={toggleHover}
                   />
+                  </a>
                   <a
                     href="https://www.linkedin.com/in/murat-sahin442/"
                     className={styles.visitButton}
@@ -168,6 +168,7 @@ export default function MainFrameContainer() {
               </div>
               <div className={`${styles.backCard}`}>
                 <div class={styles.backCardImageContainer}>
+                <a href="https://github.com/Murat-Sahin1">
                   <Image
                     className={styles.backCardImage}
                     src={"/images/github.png"}
@@ -177,6 +178,7 @@ export default function MainFrameContainer() {
                     onMouseEnter={toggleHover}
                     onMouseLeave={toggleHover}
                   />
+                  </a>
                   <a
                     href="https://github.com/Murat-Sahin1"
                     className={styles.visitButton}
@@ -195,6 +197,7 @@ export default function MainFrameContainer() {
               </div>
               <div className={`${styles.backCard}`}>
               <div class={styles.backCardImageContainer}>
+              <a href="https://medium.com/@murat.sahin.dev">
                   <Image
                     className={styles.backCardImage}
                     src="/images/medium-icon.svg"
@@ -204,6 +207,7 @@ export default function MainFrameContainer() {
                     onMouseEnter={toggleHover}
                     onMouseLeave={toggleHover}
                   />
+                  </a>
                   <a href='https://medium.com/@murat.sahin.dev' className={styles.visitButton}>Visit</a>
                 </div>
               </div>
