@@ -94,6 +94,7 @@
 .seeProjectButtonContainer:hover {
     background-color: #776db1;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .seeProjectButton {

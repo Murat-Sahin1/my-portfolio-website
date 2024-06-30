@@ -85,20 +85,42 @@ export default function ContactFrameContainer() {
                 <p class={styles.formHeaderText}>SEND ME A MESSAGE</p>
               </div>
               <div class={styles.inputBoxContainer}>
-                <p class={styles.inputBoxText}>Name</p>
+                <input
+                  type="text"
+                  className={styles.input}
+                  placeholder="Name"
+                />
+              </div>
+
+              <div class={styles.inputBoxContainer}>
+              <input
+                  type="text"
+                  className={styles.input}
+                  placeholder="Email"
+                />
               </div>
               <div class={styles.inputBoxContainer}>
-                <p class={styles.inputBoxText}>Email</p>
+              <input
+                  type="text"
+                  className={styles.input}
+                  placeholder="Subject"
+                />
               </div>
-              <div class={styles.inputBoxContainer}>
-                <p class={styles.inputBoxText}>Subject</p>
-              </div>
+
               <div class={styles.messageBoxContainer}>
-                <p class={styles.inputBoxText}>Your Message</p>
+
+              <input
+                  type="text"
+                  className={styles.input}
+                  placeholder="Your Message (THIS HAS TO BE A TEXT AREA)"
+                  
+                />
+
               </div>
-              <div class={styles.buttonContainer}>
+
+              <a class={styles.buttonContainer}>
                 <p class={styles.buttonText}>SEND</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -106,3 +128,10 @@ export default function ContactFrameContainer() {
     </>
   );
 }
+
+/*
+                <div class={styles.inputBoxTextContainer}>
+                  <p class={styles.inputBoxText}>Name</p>
+                  
+                </div>
+*/
