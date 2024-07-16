@@ -112,7 +112,7 @@ export default function ContactFrameContainer() {
               <input
                   type="text"
                   className={styles.input}
-                  placeholder="Your Message (THIS HAS TO BE A TEXT AREA)"
+                  placeholder="Your Message"
                   
                 />
 
